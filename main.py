@@ -22,7 +22,7 @@ splitter = CharacterTextSplitter(
 docs = splitter.split_documents(data)
 
 #llm of choice
-llm=OllamaLLM(model="llama.3.2")
+llm=OllamaLLM(model="llama3.2")
 
 embeddings_func = OllamaEmbeddings(
     model="llama3.2"
